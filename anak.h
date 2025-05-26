@@ -9,3 +9,7 @@ public:
     {
         cout << "anak \" " << nama << "\" ada\n";
     }
+    ~anak()
+    {
+        cout << "anak \" " << nama << "\" tidak ada\n";
+    }
